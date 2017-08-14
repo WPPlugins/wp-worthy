@@ -1,0 +1,1313 @@
+###
+# Plugin caption
+
+msgid "Worthy"
+msgstr "Worthy"
+
+msgid "Worthy - VG-Wort Integration for Wordpress"
+msgstr "Worthy - VG-Wort Integration für Wordpress"
+
+###
+# Overview section
+
+msgid "Overview"
+msgstr "Übersicht"
+
+msgid "Markers"
+msgstr "VG-Wort Zählmarken"
+
+msgid "Markers for %s"
+msgstr "Zählmarken von %s"
+
+msgid "Markers for an unknown user"
+msgstr "Zählmarken eines unbekannten Benutzers"
+
+msgid "Not personalized markers"
+msgstr "Zählmarken die niemandem gehören"
+
+msgid "Show only these"
+msgstr "Zeige mir nur diese"
+
+msgid "<strong>%d marker</strong> may be reported"
+msgid_plural "<strong>%d markers</strong> may be reported"
+msgstr[0] "<strong>Eine Zählmarke</strong> kann an die VG-Wort gemeldet werden"
+msgstr[1] "<strong>%d Zählmarken</strong> können an die VG-Wort gemeldet werden"
+
+msgid "<strong>%d unused marker</strong> on database"
+msgid_plural "<strong>%d unused markers</strong> on database"
+msgstr[0] "<strong>Eine ungenutzte</strong> VG-Wort Zählmarke in der Datenbank"
+msgstr[1] "<strong>%d ungenutzte</strong> VG-Wort Zählmarken in der Datenbank"
+
+msgid "Import new markers"
+msgstr "Neue VG-Wort Zählmarken importieren"
+
+msgid "<strong>%d used marker</strong> on database"
+msgid_plural "<strong>%d used markers</strong> on database"
+msgstr[0] "<strong>Eine benutzte</strong> VG-Wort Zählmarke in der Datenbank"
+msgstr[1] "<strong>%d benutzte</strong> VG-Wort Zählmarken in der Datenbank"
+
+msgid "<strong>%d marker</strong> of them is assigned to non-existant posts"
+msgid_plural "<strong>%d markers</strong> of them are assigned to non-existant posts"
+msgstr[0] "<strong>Eine Zählmarke</strong> hiervon ist einem nicht mehr existierenden Beitrag zugeordnet"
+msgstr[1] "<strong>%d Zählmarken</strong> hiervon sind nicht mehr existierenden Beiträgen zugeordnet"
+
+msgid "<strong>%d marker</strong> has no private marker assigned"
+msgid_plural "<strong>%d markers</strong> have no private marker assigned"
+msgstr[0] "<strong>Eine Zählmarke</strong> hat keinen privaten Identifikationscode"
+msgstr[1] "<strong>%d Zählmarken</strong> haben keinen privaten Identifikationscode"
+
+msgid "Import CSV containing private markers"
+msgstr "Private Identifikationscodes aus CSV importieren"
+
+msgid "Load private markers with Worthy Premium"
+msgstr "Private Identifikationscodes mit Worthy Premium laden"
+
+msgid "<strong>%d markers</strong> total on database"
+msgstr "<strong>%d VG-Wort Zählmarken</strong> insgesamt vorhanden"
+
+msgid "Posts"
+msgstr "Beiträge"
+
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "Ein Beitrag"
+msgstr[1] "%d Beiträge"
+
+msgid "on index that are qualified but do not have a marker assigned"
+msgstr "im Worthy-Index die relevant sind aber noch keinen VG-Wort Zählmarken haben"
+
+msgid "Find them"
+msgstr "Finde sie"
+
+msgid "do not have a length-index for Worthy stored"
+msgstr "haben keinen Zeichen-Index für Worthy zugeordnet"
+
+msgid "Generate length-index"
+msgstr "Zeichen-Index erstellen"
+
+msgid "were found on frontend with at least two markers assigned!"
+msgstr "verwenden mindestens zwei Zählmarken, wovon nur die Worthy-Zählmarke ausgegeben wurde!"
+
+msgid "Migration"
+msgstr "Migration"
+
+msgid "are using inline markers"
+msgstr "verwenden eingebetete VG-Wort Zählmarken"
+
+msgid "are using markers from VGW (VG-Wort Krimskram)"
+msgstr "verwenden VG-Wort Zählmarken von VGW (VG-Wort Krimskram)"
+
+msgid "are using markers from WP VG-Wort"
+msgstr "verwenden VG-Wort Zählmarken von WP VG-Wort"
+
+msgid "are using markers from Prosodia VGW"
+msgstr "verwenden VG-Wort Zählmarken von Prosodia VGW"
+
+msgid "are using markers from Torben Leuschners VG-Wort"
+msgstr "verwenden VG-Wort Zählmarken von Torben Leuschners' VG-Wort"
+
+msgid "Attention"
+msgstr "Achtung"
+
+msgid "Some of this posts seem to have assigned markers using more than one plugin!"
+msgstr "Einige dieser Beiträge haben Zählmarken von mehreren Plugins zugewiesen!"
+
+msgid "%d of this posts is already managed by Worthy!"
+msgid_plural "%d of this posts are already managed by Worthy!"
+msgstr[0] "Einer dieser Beiträge wird bereits von Worthy verwaltet!"
+msgstr[1] "%d dieser Beiträge werden bereits von Worthy verwaltet!"
+
+msgid "Go to Import / Export to migrate those posts to Worthy"
+msgstr "Wechsle zu Import / Export um diese Zählmarken nach Worthy zu migrieren"
+
+###
+# Markers section
+
+msgid "Markers without private code found"
+msgstr "Zählmarken ohne privaten Identifikationscode gefunden"
+
+msgid "It looks like you have migrated some markers from other VG-Wort managing plugins, that did not store the private code on your database."
+msgstr "Vermutlich hast Du Zählmarken aus einem anderen VG-Wort-Plugin importiert, das nicht den privaten Identifikationscode der Zählmarke gespeichert hat."
+
+msgid "Worthy should know all parts of its markers to allow efficient report-creation - by hand or via Worthy Premium."
+msgstr "Um schnell und effizient die Meldungen an VG-Wort erstellen zu können - ob nun manuell oder mit Worthy Premium - sollte Worthy die komplette Zählmarke kennen."
+
+msgid "You can complete markers by uploading the original CSV-file from VG-Wort or by using the automatic search as included with Worthy Premium."
+msgstr "Du kannst vorhandene Zählmarken komplettieren, indem Du einfach die CSV-Datei von der VG-Wort mit den Zählmarken importierst oder die automatische Suchfunktion von Worthy Premium nutzt."
+
+msgid "Search Marker"
+msgstr "Zählmarken suchen"
+
+msgid "Marker assigned"
+msgstr "Zählmarke zugewiesen"
+
+msgid "Public Marker"
+msgstr "Öffentlicher Identifikationscode"  
+
+msgid "Private Marker"
+msgstr "Privater Identifikationscode"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Post"
+msgstr "Beitrag"
+
+msgid "Relevant Characters"
+msgstr "Relevante Zeichen"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "not counted or synced"
+msgstr "Nicht gezählt oder synchronisiert"
+
+msgid "not synced"
+msgstr "Nicht synchronisiert"
+
+msgid "not counted"
+msgstr "Noch nicht gezählt"
+
+msgid "not qualified"
+msgstr "Mindestzugriff nicht erreicht"
+
+msgid "partial qualified"
+msgstr "Mindestzugriff teilweise erreicht"
+
+msgid "qualified"
+msgstr "Mindestzugriff erreicht"
+
+msgid "reported"
+msgstr "Bereits gemeldet"
+
+msgid "reportable"
+msgstr "Kann gemeldet werden"
+
+msgid "%d chars"
+msgstr "%d Zeichen"
+
+msgid "%d chars missing"
+msgstr "%d Zeichen fehlen"
+
+msgid "Create webarea"
+msgstr "Webbereich erstellen"
+
+msgid "Report with preview"
+msgstr "Meldung erstellen (mit Vorschau)"
+
+msgid "Report without preview"
+msgstr "Direkt melden (ohne Vorschau)"
+
+msgid "Reindex this post"
+msgstr "Beitrag neu indizieren"
+
+msgid "Create webareas"
+msgstr "Webbereiche erstellen"
+
+msgid "Reindex posts"
+msgstr "Beiträge neu indizieren"
+
+msgid "Display all authors"
+msgstr "Alle Autoren anzeigen"
+
+msgid "Display all marker-stati"
+msgstr "Alle Zählmarken-Stati anzeigen"
+
+msgid "Display all markers that are not ignored"
+msgstr "Alle Zählmarken die nicht ignoriert wurden"
+
+msgid "Display all markers"
+msgstr "Alle Zählmarken"
+
+msgid "All Markers with posts assigned"
+msgstr "Alle Zählmarken mit zugeordnetem Beitrag"
+
+msgid "Markers with posts assigned that are not ignored"
+msgstr "Zählmarken mit Beiträgen die nicht ignoriert wurden"
+
+msgid "Markers with posts assigned that are ignored"
+msgstr "Zählmarken mit Beiträgen die ignoriert wurden"
+
+msgid "Title is too long"
+msgstr "Titel ist zu lang"
+
+msgid "No private marker"
+msgstr "Privater Identifikationscode fehlt"
+
+msgid "Foreign User-ID"
+msgstr "Anderer Autor"
+
+msgid "You are not the author of this post or assigned to him/her, you cannot assign a marker to this post"
+msgstr "Du bist nicht der Autor dieses Beitrags und auch nicht mit ihm/ihr verbunden, Du kannst hier keine Zählmarke zuordnen"
+
+msgid "User-ID conflict"
+msgstr "Autoren-Konflikt"
+
+msgid "The author of the post does not match the owner of the marker"
+msgstr "Der Autor des Beitrags passt nicht zum Inhaber der Zählmarke"
+
+###
+# Posts section
+
+msgid "Display all post-types"
+msgstr "Alle Post-Typen anzeigen"
+
+msgid "No more markers on the database available"
+msgstr "Keine freien VG-Wort Zählmarken in der Datenbank vorhanden"
+
+msgid "There are no more markers available!"
+msgstr "Es sind keine VG-Wort Zählmarken mehr frei!"
+
+msgid "There are no markers left on the Worthy Database."
+msgstr "In der Datenbank von Worthy sind keine freien VG-Wort Zählmarken mehr vorhanden."
+
+msgid "It is not possible to assign a new marker to a post or page until you import a new set of markers from a csv file."
+msgstr "Solange Du keine neue CSV-Datei mit VG-Wort Zählmarken in die Datenbank lädst, kann kein Beitrag und keine Seite einen neuen VG-Wort Zählmarken mehr erhalten."
+
+msgid "It is not possible to assign a new marker to a post or page until you import a new set of markers via Worthy Premium or from a csv file."
+msgstr "Solange Du keine neuen VG-Wort Zählmarken über Worthy Premium oder per CSV-Import in die Datenbank lädst, können keine Beiträge oder Seiten neue VG-Wort Zählmarken mehr erhalten."
+
+msgid "Low amount of unused markers left"
+msgstr "Nur noch wenig freie VG-Wort Zählmarken verfügbar"
+
+msgid "Worthy is running low on markers!"
+msgstr "Es sind nur noch wenig VG-Wort Zählmarken in der WP-Worthy-Datenbank vorhanden!"
+
+msgid "If you are going to assign more than %d markers to posts without a marker assigned, some of them will fail until you import new markers from a csv file into the Worthy database."
+msgstr "In der Worthy-Datenbank sind nur noch %d VG-Wort Zählmarken vorhanden. Solange Du nicht eine neue CSV-Datei mit VG-Wort Zählmarken in Worthy importierst, kann es vorkommen dass einigen Beiträgen und Seiten kein VG-Wort Zählmarken zugeordnet werden kann."
+
+msgid "If you are going to assign more than %d markers to posts without a marker assigned, some of them will fail until you import new markers via Worthy Premium or from a csv file into the Worthy database."
+msgstr "In der Worthy-Datenbank sind nur noch %d VG-Wort Zählmarken vorhanden. Solange Du nicht neue Zählmarken über Worthy Premium oder per CSV-Import importierst, kann es vorkommen dass einigen Beiträgen und Seiten kein VG-Wort Zählmarken zugeordnet werden kann."
+
+msgid "Marker"
+msgstr "Zählmarken"
+
+msgid "Total Size"  
+msgstr "Gesamtgröße"
+
+msgid "Priv"
+msgstr "P"
+
+msgid "Publ"
+msgstr "Ö"
+
+msgid "Serv"
+msgstr "S"
+
+msgid "Contains an inlined marker"
+msgstr "Enthält einen eingebetteten Zählmarken"
+
+msgid "Is managed by VGW"
+msgstr "Wird von VGW verwaltet"
+
+msgid "Is managed by WP VG-Wort"
+msgstr "Wird von WP VG-Wort verwaltet"
+
+msgid "Is managed by Prosodia VGW"
+msgstr "Wird von Prosodia verwaltet"
+
+msgid "Already managed by Worthy"
+msgstr "Wird bereits von Worthy verwaltet"
+
+msgid "Migrate post"
+msgstr "Beitrag migrieren"
+
+msgid "Not relevant"
+msgstr "Nicht relevant"
+
+msgid "Marker assigned without need"   
+msgstr "Unnötige Zählmarke zugeordnet"
+
+msgid "Assign marker"
+msgstr "Zählmarke zuordnen"
+
+msgid "Needs marker"
+msgstr "Zählmarke empfohlen"
+
+msgid "Migrate posts"
+msgstr "Beiträge migrieren"
+
+msgid "Assign markers"
+msgstr "Zählmarken zuordnen"
+
+msgid "Ignore posts"
+msgstr "Beiträge ignorieren"
+
+msgid "Display all posts"
+msgstr "Alle Beiträge anzeigen"
+
+msgid "Posts that are not long enough"
+msgstr "Beiträge die nicht lang genug sind"
+
+msgid "Posts that are suited for VG-Wort"
+msgstr "Beiträge die relevant für VG-Wort sind"
+
+msgid "Posts that are extra long"
+msgstr "Beiträge die extra lang sind"
+
+msgid "Posts without marker assigned"   
+msgstr "Beiträge ohne VG-Wort Zählmarke"
+
+msgid "Posts with marker assigned"
+msgstr "Beiträge mit VG-Wort Zählmarke"
+
+msgid "Markers that have not been counted"
+msgstr "Ungezählte Zählmarken"
+
+msgid "Markers that have not qualified yet"
+msgstr "Zählmarken ohne Mindestzugriff"
+
+msgid "Markers that are partial qualified"
+msgstr "Zählmarken mit anteiligem Mindestzugriff"
+
+msgid "Markers that are qualified"
+msgstr "Zählmarken mit Mindestzugriff"
+
+msgid "Markers that were reported"
+msgstr "Gemeldete Zählmarken"
+
+msgid "Markers that may be reported"
+msgstr "Zählmarken die gemeldet werden können"
+
+###
+
+msgid "on index"
+msgstr "im Index vorhanden"
+
+msgid "have been indexed"
+msgstr "wurden indiziert"
+
+msgid "Settings have been saved"
+msgstr "Einstellungen wurden gespeichert"
+
+msgid "Reindex everything, even posts that are already indexed"
+msgstr "Index für alle Beiträge erstellen, auch für solche die bereits im Index sind"
+
+msgid "Import / Export"
+msgstr "Import / Export"
+
+msgid "Import VG-Wort markers"
+msgstr "VG-Wort Zählmarken importieren"
+
+msgid "By using Worthy Premium you may directly import markers without the need to download them manually from VG-Wort."
+msgstr "Mit Worthy Premium kannst Du Zählmarken direkt importieren ohne diese vorher bei VG-Wort herunterladen zu müssen."
+
+msgid "If you have requested a CSV-list of markers via VG-Wort you may upload this file and import contained markers here."
+msgstr "Wenn Du eine CSV-Liste mit Zählmarken über die VG-Wort erstellt hast, kannst Du diese hier hochladen und die enthaltenen Zählmarken importieren."
+
+msgid "Import CSV"
+msgstr "CSV-Datei importieren"
+
+msgid "Read %d files containing %d markers"
+msgstr "Es wurden aus %d Dateien insgesamt %d Zählmarken gelesen"
+
+msgid "%d markers were already known, %d of them received an update"
+msgstr "%d Zählmarken waren bereits in der Datenbank bekannt, %d Zählmarken hiervon wurden aktualisiert"
+
+msgid "%d markers were newly added to database, %d updates in total"
+msgstr "%d Zählmarken wurden neu zur Datenbank hinzugefügt, insgesamt gab es %d Zählmarken-Updates"
+
+msgid "No files were uploaded or there was an error importing all records"
+msgstr "Es wurden keine Dateien hochgeladen oder es gab einen Fehler beim Import"
+
+msgid "Personalize and import VG-Wort markers"
+msgstr "VG-Wort Zählmarken personalisieren und importieren"
+
+msgid "Some very active authors may run out of markers before the end of the year. If this also happend to you, you may personalize anonymous markers here by uploading the CSV-File you received from VG-Wort by ordering anonymous markers on their website."
+msgstr "Sehr fleißige Autoren haben gelegentlich mehr Jahr als Zählmarken zur Verfügung. Für diesen Fall kannst Du hier anonyme Zählmarken, wie Du sie über die Webseite der VG-Wort bestellen kannst, personaliseren und in Worthy importieren. Lade dazu einfach die CSV-Liste hier hoch."
+
+msgid "CSV-File containing anonymous markers"
+msgstr "CSV-Datei mit anonymen Zählpixeln"
+
+msgid "Import markers after they have been claimed"
+msgstr "Zählmarken importieren nachdem sie personalisiert wurden"
+
+msgid "Personalize and import markers"
+msgstr "Zählmarken personalisieren und importieren"
+
+msgid "The following markers were personalized:"
+msgstr "Diese VG-Wort Zählmarken wurden erfolgreich personalisiert:"
+
+msgid "%d markers were added to database"
+msgstr "%d Zählmarken wurden insgesamt zur Worthy-Datenbank hinzugefügt"
+
+msgid "The following markers could not be personalized:"
+msgstr "Die folgenden VG-Wort Zählmarken konnten leider nicht personalisiert werden:"
+
+###
+# Report/Export toolbox
+
+msgid "Create Report about VG-Wort markers"
+msgstr "Bericht zu VG-Wort Zählmarken"
+
+msgid "Worthy can generate a CSV-file for you that contains known markers and may be imported into any spreadsheet program, e.g. LibreOffice Calc or Microsoft Excel."
+msgstr "Die Bericht-Funktion erstellt eine CSV-Liste die Worthy bekannte Zählmarken enthält und mit einem Programm für Tabellenkalkulation, z.B. LibreOffice Calc oder Microsoft Excel, geöffnet werden kann."
+
+msgid "You can choose which markers to be included in the report and extend them with further information. Using <a href=\"%s\">Worthy Premium</a> you may also filter by state of the markers."
+msgstr "Du kannst auswählen welche Zählmarken Du im Bericht enthalten haben magst und kannst sie um ein paar weitere Informationen ergänzen. Mit <a href=\"%s\">Worthy Premium</a> lassen sich die Zählmarken auch nach ihrem Status filtern."
+
+msgid "Report markers that are not assigned to any post or page"
+msgstr "Zählmarken die noch nicht verwendet werden im Bericht mit einbeziehen"
+
+msgid "Report markers that are actually in use by a post or a page"
+msgstr "Zählmarken die bereits verwendet werden im Bericht mit einbeziehen"
+
+msgid "Report title of post if assigned"
+msgstr "Titel des Beitrags im Bericht erwähnen (sofern zugewiesen)"
+
+msgid "Report markers from all authors"
+msgstr "Über Zählmarken von allen Autoren berichten"
+
+msgid "Report markers from specific authors"
+msgstr "Autoren für den Bericht auswählen"
+
+msgid "Report markers that were not counted yet"
+msgstr "Zählmarken die nocht nicht gezählt wurden im Bericht mit einbeziehen"
+
+msgid "Report markers that have not qualified yet"
+msgstr "Zählmarken die den Mindestzugriff noch nicht erreicht haben im Bericht mit einbeziehen"
+
+msgid "Report markers that have qualified partial"
+msgstr "Zählmarken die den Mindestzugriff anteilig erreicht haben im Bericht mit einbeziehen"
+
+msgid "Report markers that have qualified"
+msgstr "Zählmarken die den Mindestzugriff erreicht haben im Bericht mit einbeziehen"
+
+msgid "Report markers that have already been reported"
+msgstr "Zählmarken die bereits gemeldet wurden im Bericht mit einbeziehen"
+
+msgid "Generate Report as CSV"
+msgstr "Bericht als CSV-Datei erstellen"
+
+msgid "Export unused VG-Wort markers"
+msgstr "Ungenutzte VG-Wort Zählmarken exportieren"
+
+msgid "Worthy can generate a CSV-File containing unused VG-Wort markers for you. All markers on the export will be removed from Worthy's database."
+msgstr "Die Export-Funktion für ungenutzte VG-Wort Zählmarken erstellt eine CSV-Datei mit ungenutzten Zählmarken in der Worthy-Datenbank, stellt diese zum Download bereit und entfernt diese Zählmarken aus der Worthy-Datenbank."
+
+msgid "The exported CSV-file is usefull if you already have ordered the maximum amount of markers for an entire year and need additional markers at another place."
+msgstr "Diese Funktion ist hilfreich, wenn Du bereits für ein Jahr Dein gesamtes Kontingent an VG-Wort Zählmarken ausgeschöpft hast und noch Zählmarken an anderer Stelle benötigst."
+
+msgid "You may choose between two export-formats - one suitable for \"normal\" VG-Wort Authors and another one for publishers. We recommend you to use the one for authors as less informations are lost on export."
+msgstr "Du kannst zwischen einem Export-Format für \"normale\" VG-Wort Autoren oder dem VG-Wort-Format für Verlage wählen, wobei neu beim Export für Autoren gewährleistet ist, dass alle Informationen erhalten bleiben."
+
+msgid "Be aware that using this export-function will remove information from your Worthy-Database. Use it with caution!"
+msgstr "Bitte sei Dir bewusst, dass diese Funktion Informationen aus der Worthy-Datenbank löscht. Benutze Sie daher mit Vor- wie auch Nachsicht."
+
+msgid "Number of unused markers"
+msgstr "Anzahl ungenutzter Zählmarken"
+
+msgid "%d available"
+msgstr "%d verfügbar"
+
+msgid "Export-Format to use"
+msgstr "Gewünschtes Export-Format"
+
+msgid "Authors"
+msgstr "Autoren"
+
+msgid "Publishers"
+msgstr "Verlage"
+
+msgid "Export markers and remove from database"
+msgstr "VG-Wort Zählmarken exportierung und aus der Datenbank entfernen"
+
+msgid "Post ID"
+msgstr "Beitrags ID"
+
+msgid "Post title"
+msgstr "Titel"
+
+###
+# Migrate toolbox
+
+msgid "Migrate existing VG-Wort markers"
+msgstr "Bestehende VG-Wort Zählmarken migrieren"
+
+msgid "If you have used markers before Worthy you may want to migrate them to worthy."
+msgstr "Wenn Du vor Worthy schon mit Zählmarken gearbeitet hast, willst Du diese vermutlich in Worthy importieren um sie hier weiternutzen zu können."
+
+msgid "Worthy is able to import markers from other plugins and also markers that are manually embeded into posts."
+msgstr "Worthy kann für Dich die Zählmarken aus anderen Plugins importieren, aber auch Zählmarken finden die Du manuell in Beiträge eingebettet hast."
+
+msgid "If markers where embeded manually or managed via some basic plugins it is neccessary that you import the corresponding CSV-files as well, because worthy need to get in touch with the original private markers."
+msgstr "Bei manuell gepflegten Zählmarken und einigen Plugins solltest Du anschließend noch die alten CSV-Dateien importieren um Worthy mit den privaten Zählmarken bekannt zu machen."
+
+msgid "Please make sure that you have a recent backup of your wordpress-installation!"
+msgstr "Bitte pass auf, dass Du ein aktuelles Backup Deiner Wordpress-Installation hast!"
+
+msgid "We have made some effors to make sure that there are no issues with the migrate-tool, but nobody can say that it is safe in every case."
+msgstr "Wir haben die Migration zwar sorgfältig getestet, aber niemand kann mit absoluter Sicherheit sagen, dass sie immer wie gewünscht funktioniert."
+
+msgid "It is recommended to make a backup of your wordpress at least once a week even without using Worthy. We just want to remind you to make sure that you are able to restore lost data in case of any error."
+msgstr "Grnudsätzlich solltest Du mindestens ein wöchentliches Backup erstellen - auch ohne Worthy. Wir wollen Dich nur kurz daran erinnern, sodass Du im Fall des Falles Deinen Blog wiederherstellen kannst."
+
+msgid "Selection:"
+msgstr "Auswahl:"
+
+msgid "Markers that are embeded into posts or pages"
+msgstr "Zählmarken die in Beiträgen und Seiten eingebettet sind"
+
+msgid "Markers from plugin VGW (VG-Wort Krimskram)"
+msgstr "Zählmarken vom Plugin VGW (VG-Wort Krimskram)"
+
+msgid "Markers from plugin WP VG-Wort"
+msgstr "Zählmarken aus dem Plugin WP VG-Wort"
+
+msgid "Markers from plugin Prosodia VGW"
+msgstr "Zählmarken aus dem Plugin Prosodia VGW"
+
+msgid "Markers from plugin Torben Leuschner VG-Wort"
+msgstr "Zählmarken aus dem Plugin Torben Leuschner VG-Wort"
+
+msgid "Repair-Options:"
+msgstr "Automatische Fehlerkorrektur:"
+
+msgid "Assign new markers to posts that have a marker assigned that is already used"
+msgstr "Beiträgen, die eine VG-Wort Zählmarke zugeordnet haben die bereits verwendet wird, eine neuen Zählmarke zuordnen"
+
+msgid "Preview"
+msgstr "Vorschau"
+
+msgid "Migrate posts and pages"
+msgstr "Beiträge und Seiten migrieren"
+
+
+msgid "<strong>%s of %s posts and pages</strong> were successfully migrated"
+msgstr "<strong>%s von %s Beiträgen und Seiten</strong> wurden erfolgreich migriert"
+
+msgid "There were some duplicate VG-Wort markers on the following posts and pages detected during migration"
+msgstr "Während der Migration wurden auf den folgenden Beiträgen und Seiten doppelte VG-Wort Zählmarken festgestellt"
+
+msgid "Restart migration and assign new markers to this posts"
+msgstr "Migration neu starten und diesen Beiträgen neue VG-Wort Zählmarken zuordnen"
+
+###
+# Settings section
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Personal settings"
+msgstr "Persönliche Einstellungen"
+
+msgid "Forename"
+msgstr "Vorname"
+
+msgid "Lastname"
+msgstr "Nachname"
+
+msgid "If you use Worthy Premium in combination with a publisher-account, it is neccessary to specify at least the full name of each author."
+msgstr "Wenn Du Worthy Premium in Verbindung mit einem Verlagskonto verwendest ist es notwendig, dass Du für jeden Autor mindestens den vollen Namen angibst."
+
+msgid "Once you submit a report this information is transmitted togehter with the original post and the optional Card-ID to VG-Wort."
+msgstr "Sobald Du einen Beitrag meldest, werden diese Informationen zusammen mit der optionalen Karteinummer an die VG-Wort übermittelt."
+
+msgid "Card-ID"
+msgstr "Karteinummer"
+
+msgid "Assigning just the name of the author does not enable VG-Wort to create a direct relation between the author and his/her post."
+msgstr "Wenn ein Beitrag nur mit dem Namen des Autors an die VG-Wort gemeldet wird, kann diese keine direkte Verbindung zwischen dem Autor und seinem Werk herstellen."
+
+msgid "It is always recommended to provide a Card-ID of the author as well to assure that the post is linked with the author withour any issues at VG-Wort."
+msgstr "Daher ist es zu Empfehlen neben dem Namen des Autors auch gleich dessen Karteinummer bei der VG-Wort mit zu übergeben, damit diese das Werk direkt seinem Urheber zuordnen kann."
+
+msgid "Automatically assign a marker to qualified posts"
+msgstr "Beiträgen automatisch ein Zählpixel zuordnen, sobald diese lang genug sind."
+
+msgid "Worthy should automatically assign a fresh marker to newly created posts as long as they are long enough."
+msgstr "Worthy kann Dir etwas Arbeit abnehmen und automatisch eine freie Zählmarke neuen Beiträgen zuordnen, sobald diese lang genug sind."
+
+msgid "This is helpful if you are too focused to see the flashy notices Worthy gives you when writing new posts."
+msgstr "Je nachdem wie fokusiert Du bei der Arbeit bist kannst Du so sicherstellen, dass alle Beiträge eine Zählmarke erhalten auch wenn Du die durchaus penetranten Hinweise von Worthy übersiehst."
+
+msgid "Account-Sharing enables other wordpress-users on this blog to use markers assigned to your account."
+msgstr "Wenn Du die Nutzung Deines Benutzers für andere Benutzer dieses Wordpress-Blogs erlaubst, können diese Deine Zählmarken mit ihren Beiträgen verwenden."
+
+msgid "If you do not want to enable other users to use your markers, please uncheck this option."
+msgstr "Wenn Du dies nicht wünschst, deaktiviere diese Option."
+
+msgid "Changes will take effect immediately, but may be undone whenever you toggle this option again."
+msgstr "Änderungen an dieser Option treten sofort in Kraft, können aber ohne Probleme jederzeit wieder zurück genommen werden."
+
+msgid "Nobody is allowed to use my markers"
+msgstr "Niemand außer mir soll meine Zählmarken verwenden"
+
+msgid "Everyone may use my markers"
+msgstr "Jeder soll meine Zählmarken verwenden dürfen"
+
+msgid "I want to choose who may use my markers"
+msgstr "Ich möchte auswählen, wer meine Zählmarken verwenden darf"
+
+msgid "Account-Sharing"
+msgstr "Gemeinsamer Zugang"
+
+msgid "Don't use other account"
+msgstr "Keinen anderen Zugang nutzen"
+
+msgid "SHARING IS DISABLED BY USER"
+msgstr "BENUTZER TEILT KEINE ZÄHLMARKEN"
+
+msgid "With account-sharing you can link your wordpress-account to another one."
+msgstr "Mit der Funktion \"Gemeinsamer Zugang\" kannst Du den Wordpress-Zugang eines anderen Autoren nutzen."
+
+msgid "In this case worthy will behave just like the other account performs your actions, e.g. markers will be imported for this account and will be assigned to posts from this account."
+msgstr "In diesem Fall wird Worthy sich verhalten, als würden alle Aktionen über einen anderen Zugang ausgeführt. So werden importierte Zählmarken dem gewählten Zugang zugeordnet und auch von dort wieder Beiträgen zugewiesen."
+
+msgid "The same also applies to Worthy Premium of course."
+msgstr "Das alles gilt natürlich auch für die Nutzung von Worthy Premium."
+
+msgid "Don't output markers on wordpress-frontend"
+msgstr "Keine Zählmarken im Wordpress-Blog ausgeben"
+
+msgid "There might be situations when you want to disable the output of markers managed by Worthy entirely. When you check this option Worthy will stop inserting markers into posts that are viewed on the wordpress frontend."
+msgstr "Unter bestimmten Umständen kann es vorkommen, dass Du keine VG-Wort Zählmarken im Blog einbetten lassen möchtest. Worthy wird aufhören Zählmarken in Deine Beiträge einzubetten, sobald Du diese Option aktivierst."
+
+msgid "Default VG-Wort Server"
+msgstr "Server für Zählmarken"
+
+msgid "VG-Wort Publisher Settings"
+msgstr "VG-Wort Verlagskonto"
+
+msgid "When using a publisher-account at VG-Wort CSV-files don't come with server-information set, in this case Worthy has to know which server you are using."
+msgstr "Wenn Du einen Verlags-Zugang bei der VG-Wort besitzt, ist der Server für die Zählmarken nicht in der CSV-Datei enthalten. Für diesen Fall muss Worthy hier explizit erfahren, welchen VG-Wort-Server es benutzen soll."
+
+msgid "Post Types to consider"
+msgstr "Berücksichtigte Beitragstypen"
+
+msgid "Which post-types should be handled by Worthy?"
+msgstr "Welchen Beitragstypen soll Worthy Zählmarken zuweisen?"
+
+msgid "By default Worthy will only consider posts and pages. Depending on installed plugins you might want to assign markers to other post-types."
+msgstr "Normalerweise berücksichtigt Worthy nur Beiträge und Seiten (\"Posts\" und \"Pages\"), je nach installierten Plugins wirst Du aber anderen Seitentypen Zählmarken zuordnen wollen."
+
+msgid "You may select the desired post-types from the list below that worthy should assign markers to and display them on the post-overview."
+msgstr "In der folgenden Liste kannst Du einstellen, zu welchen Beitragstypen Worthy das Zuorndnen von Zählpixeln anbieten und sie in der Beitragsübersicht anzeigen soll."
+
+###
+# Admin section
+msgid "Admin"
+msgstr "Administration"
+
+msgid "Common settings"
+msgstr "Allgemeine Einstellungen"
+
+msgid "Enable account-sharing"
+msgstr "Teilen von Zählmarken (Gemeinsamer Zugang) aktivieren"
+
+msgid "With account-sharing you may share markers and settings among multiple wordpress-users."
+msgstr "Das Teilen von Zählmarken ermöglicht es Benutzern in diesem Blog die Zählmarken von anderen Benutzern zu nutzen."
+
+msgid "This is usefull whenever you use multiple users - e.g. an admin- and an editor-account - on wordpress and do not want to switch users always."
+msgstr "Diese Funktion ist recht hilfreich wenn Du mehrere Benutzer, z.B. ein Administrator- und einen Autor-Benutzer, verwendest und Du nicht ständig zwischen den Benutzern wechseln möchtest."
+
+msgid "Account-sharing may be configured on the settings-page of the user that whishes to use settings from another user."
+msgstr "Das Teilen von Zählmarken kann in den Benutzer-Einstellungen des Benutzers konfiguriert werden, der Zählmarken eines anderen Benutzers verwenden möchte."
+
+msgid "Orphaned markers"
+msgstr "Verwaiste Zählmarken"
+
+msgid "There are %d orphaned markers on the database."
+msgstr "Es gibt insgesamt %d verwaiste Zählmarken in Deiner Datenbank."
+
+msgid "Orphaned markers may exist on your database if you were an early adopter of Worthy or if you removed a user meanwhile without assigning its markers to another author."
+msgstr "Verwaiste Zählmarken können in Deiner Wordpress-Datenbank existieren, wenn Du Worthy bereits seit der ersten Stunde einsetzt oder Du zwischenzeitlich Benutzer gelöscht hast ohne deren Zählmarke einem anderen Autoren zuzuordnen."
+
+msgid "If you want to regain access to these markers you may assign them to another user here."
+msgstr "Wenn Du diese Zählmarken weiterhin bzw. wieder nutzen möchtest, kannst Du sie hier einem anderen Benutzer zuordnen."
+
+msgid "Assign to author"
+msgstr "Zählmarken diesem Autor zuweisen"
+
+msgid "Sharing accounts and migrating markers"
+msgstr "Gemeinsamer Zugang und Migration von Zählmarken"
+
+msgid "Markers are bound to a specific account, but may be shared with other accounts."
+msgstr "Zählmarken sind immer einem bestimmten Benutzerkonto zugeordnet, können aber mit anderen Wordpress-Konten geteilt werden."
+
+msgid "Worthy provides the option to share markers as a self-service, users may configure sharing without administrator-privileges required."
+msgstr "Worthy bietet Benutzern die Möglichkeit das Teilen von Zählmarken selbstständig zu konfigurieren, ohne das hierzu Administrator-Rechte benötigt werden."
+
+msgid "If you want to configure sharing for other users, you may do it here."
+msgstr "Zusätzlich kannst Du hier die Konfiguration für andere Benutzer übernehmen."
+
+msgid "Additionally you can change the ownership of existing markers, but always be careful using this function and make sure that you have the permission of the owner before doing so."
+msgstr "Weiter kannst Du bei Bedarf auch den Inhaber von Zählmarken mit dieser Funktion anpassen. Sei aber stets vorsichtig beim Verwenden dieser Funktion und stelle immer sicher, dass Du die Erlaubnis des Inhabers hierfür hast."
+
+msgid "has disabled sharing"
+msgstr "hat Teilen deaktiviert"
+
+msgid "Wordpress-User"
+msgstr "Wordpress-Benutzer"
+
+msgid "should use markers of the user (sharing)"
+msgstr "soll die Zählmarken des Benutzers verwenden (Nutzen)"
+
+msgid "should move his markers to the user (migrating)"
+msgstr "soll seine Zählmarken an den Benutzer übertragen (Übertragen)"
+
+msgid "should move his markers to and use the markers of the user (migrate and share)"
+msgstr "soll seine Zählmarken an den benutzer übertragen und dessen Zählmarken nutzen (Übertragen und nutzen)"
+
+msgid "Operation was completed successfully!"
+msgstr "Operation wurde erfolgreich durchgeführt!"
+
+msgid "%d markers were migrated."
+msgstr "%d Zählmarken wurden umgezogen."
+
+msgid "Strange! Share and Migrate was called with an invalid parameter."
+msgstr "Verrückt... Gemeinsamer Zugang und Migration von Zählmarken wurde mit einem ungültigen Parameter aufgerufen."
+
+msgid "You can not run Share and Migrate on the same user."
+msgstr "Bitte wähle unterschiedliche Benutzer für den gemeinsamen Zugang und die Migration von Zählmarken aus."
+
+msgid "Oops! Sharing in this way would cause an endless loop."
+msgstr "Ups! Wenn Du den gemeinsamen Zugang (Teilen) so aktivierst, würde eine Endlosschleife entstehen. Das ist nicht gut!"
+
+###
+# Private Marker Inquiry
+
+msgid "Private Marker Inquiry"
+msgstr "Zählmarken Recherche"
+
+msgid "The private-marker-inquiry will display a list of markers managed by Worthy (including post-assignment) from a CSV-List."
+msgstr "Mit der Zählmarken-Recherche kannst Du alle in Worthy gespeicherten Zählmarken (samt Beitrag-Zuordnung) aus einer CSV-Liste anzeigen lassen."
+
+msgid "You may upload a CSV-file like the one you can download from the marker-inquiry at T.O.M.."
+msgstr "Die CSV-Liste erhältst Du z.B. über den CSV-Download aus der T.O.M. Zählermarken-Recherche."
+
+msgid "CSV-File containing private markers"
+msgstr "CSV-Datei mit privaten Zählmarken"
+
+msgid "Search private markers"
+msgstr "Zählmarken suchen"
+
+###
+
+msgid "No markers available"
+msgstr "Keine Zählmarken verfügbar"
+
+msgid "Assign VG-Wort marker"
+msgstr "VG-Wort Zählmarke"
+
+msgid "Lyric Work"
+msgstr "Lyrisches Werk"
+
+msgid "Ignore this post"
+msgstr "Diesen Beitrag ignorieren"
+
+msgid "Markers assigned"
+msgstr "VG-Wort Zählmarken"
+
+msgid "%d relevant for VG-Wort"
+msgid_plural "%d relevant for VG-Wort"
+msgstr[0] "Ein Beitrag für VG-Wort relevant"
+msgstr[1] "%d Beiträge für VG-Wort relevant"
+
+msgid "Ignored"
+msgstr "Ignoriert"
+
+msgid "%d unused general marker"
+msgid_plural "%d unused general markers"
+msgstr[0] "Eine unbenutzte allgemeine VG-Wort Zählmarke"
+msgstr[1] "%d unbenutzte allgemeine VG-Wort Zählmarken"
+
+msgid "%d unused marker"
+msgid_plural "%d unused markers"
+msgstr[0] "Eine unbenutzte VG-Wort Zählmarke"
+msgstr[1] "%d unbenutzte VG-Wort Zählmarken"
+
+###
+# Premium Section
+
+msgid "Worthy Premium"
+msgstr "Worthy Premium"
+
+msgid "Oops! You need to have the SOAP- and OpenSSL-Extension for PHP available to use Worthy Premium."
+msgstr "Wie schade! Du benötigst die SOAP- und die OpenSSL-Erweiterung für PHP um Worthy Premium nutzen zu können."
+
+msgid "0 stars - you guys really messed it up"
+msgstr "0 Sterne - Absolut nicht zu gebrauchen"
+
+msgid "1 star - good idea, but ..."
+msgstr "1 Stern - Gute Idee, aber ..."
+
+msgid "2 stars - works with some issues"
+msgstr "2 Sterne - Funktioniert gerade so"
+
+msgid "3 stars - works for me, but could be better"
+msgstr "3 Sterne - Ganz okay, aber es geht noch besser"
+
+msgid "4 stars - great work that could be improved a bit"
+msgstr "4 Sterne - Gute Arbeit, die noch etwas verbessert werden kann"
+
+msgid "5 stars - it's simply amazing!"
+msgstr "5 Sterne - Ich bin beeindruckt!"
+
+msgid "Webareas were created"
+msgstr "Webbereiche wurden erstellt"
+
+msgid "Report to VG-Wort was done"
+msgstr "Meldung an die VG-Wort abgeschlossen"
+
+msgid "Posts that were webareas created for"
+msgstr "Beiträge für die ein Webbereich erstellt wurde"
+
+msgid "Posts that were successfully reported"
+msgstr "Folgende Beiträge wurden erfolgreich gemeldet"
+
+msgid "Post that could not be a webarea created for"
+msgstr "Beiträge für die kein Webbereich erstellt werden konnte"
+
+msgid "Posts that could not be reported"
+msgstr "Folgende Beiträge konnten nicht gemeldet werden"
+
+msgid "No errors happended during the process"
+msgstr "Es traten keinerlei Fehler auf"
+
+msgid "Invalid Post-IDs"
+msgstr "Ungültige Post-IDs"
+
+msgid "Private part of markers imported"
+msgstr "Private Identifikationscodes wurden importiert"
+
+msgid "<strong>%d of %d</strong> private parts where imported via Worthy Premium."
+msgstr "<strong>%d von %d</strong> private Identifikationscodes wurden über Worthy Premium importert."
+
+msgid "All other where not found on this VG-Wort-Account!"
+msgstr "Alle anderen Zählmarken konnten in diesem VG-Wort-Konto nicht gefunden werden!"
+
+msgid "It is possible that the unknown private parts are anonymous markers, before Worthy Premium is able to find them, they have to be personalized - Worthy Premium may do this for you, too."
+msgstr "Es ist möglich, dass die nicht gefundenen Zählmarken in Wirklichkeit anonyme Zählmarken sind. Damit Worthy Premium diese finden kann, müssen sie zuvor personalisiert werden - Worthy Premium kann dies ebenfalls für Dich erledigen."
+
+msgid "To find out more about the markers that were not found, please start a manual marker inquiry on T.O.M."
+msgstr "Um mehr über die nicht gefundenen Zählmarken heraus zu finden, führe bitte eine manuelle Zählmarkenrecherche auf T.O.M. durch."
+
+msgid "Report to VG-Wort"
+msgstr "An VG-Wort melden"
+
+msgid "Report preview"
+msgstr "Vorschau zur VG-Wort Meldung"
+
+msgid "Internal Error: Failed to create a SOAP-Client for bootstraping"
+msgstr "Interner Fehler: Konnte keinen SOAP-Client fürs erste Setup erstellen"
+
+msgid "Could not retrive the requested post %d"
+msgstr "Konnte den Wordpress-Beitrag %d nicht laden"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Length"
+msgstr "Länge"
+
+msgid "Service-Error: Caught an unexpected exception. Strange!"
+msgstr "Dienst-Fehler: Wir haben eine unerwartete Fehlermeldung erhalten. Merkwürdig!"
+
+msgid "Worthy Premium Subscription"
+msgstr "Worthy Premium Abonnement" 
+
+msgid "You are fully subscribed to Worthy Premium."
+msgstr "Du nutzt einen vollwertigen Worthy Premium-Zugang."
+
+msgid "You are using the Worthy Premium Test-Drive."
+msgstr "Du benutzt aktuell den Worthy Premium Test-Zugang."
+
+msgid "Please be patient! We received your subscription-request but have not received or processed your payment yet."
+msgstr "Bitte hab noch etwas Geduld! Wir haben Deine Bestellung vorliegen, haben aber Deine Zahlung noch nicht erhalten oder verarbeitet."
+
+msgid "Number of reports remaining"
+msgstr "Verbleibende Meldungen an VG-Wort"
+
+msgid "%d reports"
+msgstr "%d Meldungen"
+
+msgid "Begin of subscribtion"
+msgstr "Start des Abonnements"
+
+msgid "End of subscribtion"
+msgstr "Ende des Abonnements"
+
+msgid "%s at %s"
+msgstr "Am %s um %s"
+
+msgid "If you need more reports or want to advance you subscribtion, please visit our Shop."
+msgstr "Für mehr Meldungen an VG-Wort oder Verlängerung des Worthy Premium Abos, besuche unseren Shop."
+
+msgid "If you want to subscribe to Worthy Premium, please visit our Shop."
+msgstr "Um Worthy Premium dauerhaft zu nutzen, besuche unseren Shop."
+
+msgid "Worthy Premium Status"
+msgstr "Worthy Premium Status"
+
+msgid "Number of markers imported"
+msgstr "Anzahl importierter Zählmarken"
+
+msgid "Number of markers synced"
+msgstr "Anzahl Zählmarken-Updates"
+
+msgid "%d total"
+msgstr "%d gesamt"
+
+msgid "Last check of subscribtion-status"
+msgstr "Letzte Überprüfung des Abonnements"
+
+msgid "Last syncronisation of marker-status"
+msgstr "Letzte Synchronisation der Zählmarken"
+
+msgid "Synchronize now"
+msgstr "Jetzt synchronisieren"
+
+msgid "Not yet"
+msgstr "Bisher noch nicht"
+
+###
+# Worthy Premium Unregistered
+
+msgid "Sadly your test-drive is over now. :-("
+msgstr "Schade! Dein Test-Zugang ist nun abgelaufen. :-("
+
+msgid "We hope you enjoyed the test and we could convince you with our service!"
+msgstr "Wir hoffen Du hattest genug Zeit Dich mit Worthy Premium vertraut zu machen und wir konnten Dich von unserer Dienstleistung überzeugen!"
+
+msgid "Subscribe to Worthy Premium"
+msgstr "Abonniere Worthy Premium"
+
+msgid "Write a review about Worthy"
+msgstr "Schreibe eine Bewertung zu Worthy"
+
+msgid "Tell us your opinion about Worthy - in private"
+msgstr "Sag uns Deine Meinung über Worthy - vertraulich, nur so unter uns"
+
+msgid "Check your subscription-status again"
+msgstr "Abonnement-Status erneut prüfen"
+
+msgid "Your Worthy Premium Subscription expired."
+msgstr "Dein Worthy Premium Abonnement ist abgelaufen."
+
+msgid "If you want continue to use Worthy Premium, we ask you to renew your subscribtion. We would be very glad to have you for another year as our customer!"
+msgstr "Wenn Du weiterhin Worthy Premium nutzen möchtest, bitten wir Dich Dein Abonnement zu verlängern. Wir würden uns riesig freuen, wenn Du Dich für ein weiteres Jahr für unseren Dienst entscheiden würdest!"
+
+msgid "Worthy Premium Sign Up"
+msgstr "Worthy Premium Anmeldung"
+
+msgid "Username for VG-Wort T.O.M."
+msgstr "VG-Wort T.O.M. Benutzername"
+
+msgid "Password" 
+msgstr "Passwort"
+
+msgid "Sign up for Worthy Premium Testdrive"
+msgstr "Gratis Test-Zugang anlegen"
+
+msgid "You have to accept the terms of service and privacy statement before you can continue"
+msgstr "Du musst die AGB und Datenschutzerklärung akzeptieren bevor Du fortfahren kannst!"
+
+msgid "To sign up for Worthy Premium, you'll need a valid T.O.M.-Login."
+msgstr "Um Worthy Premium nutzen zu können, benötigst Du einen gültigen T.O.M.-Zugang."
+
+msgid "Your Login-Information is required to get automated access to your T.O.M. account. Without this Worthy Premium is not able to work."
+msgstr "Deine Zugangsdaten werden ausschließlich für den automatischen Zugriff auf T.O.M benötigt. Sonst kann Worthy Premium nicht für Dich arbeiten."
+
+msgid "To get in touch with Worthy Premium and its amazing functions, you'll receive a risk-free trail-account in first place. We are very sure that you'll be excited."
+msgstr "Du bekommst immer erst einen Test-Account zu Worthy Premium, damit Du Dich vollkommen risikolos von den tollen Funktionen überzeugen kannst. Wir sind nämlich sicher, daß Du begeistert sein wirst."
+
+msgid "You may buy a full-featured Worthy Premium-Subscribtion whenever you want."
+msgstr "Dann kannst Du jederzeit ein vollständiges Worthy Premium-Abo ganz nach Deinen Wünschen und Bedürfnissen abschließen."
+
+msgid "Why should I use Worthy Premium?"
+msgstr "Worthy Premium macht das umständliche Melden bei der VG-Wort zum Kinderspiel. Was bis jetzt mühsame Kleinarbeit war, übernimmt Worthy Premium komplett für Dich. Im Einzelnen heißt das:"
+
+msgid "Worthy Premium gives you an <strong>automated import of markers</strong>."
+msgstr "Mit Worthy Premium kannst Du <strong>automatisch neue Zählmarken importieren</strong>."
+
+msgid "You will no longer have to leave Wordpress and login at T.O.M. for this task."
+msgstr "Du musst Wordpress nicht mehr verlassen, Dich nicht mehr manuell bei T.O.M. anmelden, die Liste anfordern und dann in Worthy importieren müssen."
+
+msgid "Worthy Premium <strong>keeps track on the status of markers</strong>."
+msgstr "Worthy Premium <strong>verfolgt den Status von Zählmarken</strong>."
+
+msgid "You will be able to directly see if a post has already qualified, is on a good way or not. Everything happens directly inside your wordpress admin-panel!"
+msgstr "Du kannst auf einen Blick in Wordpress sehen, ob einer Deiner Beiträge bereits die Mindestzugriffe erreicht hat, auf einem guten Weg dorthin ist oder nicht. Alles geschieht direkt aus Deinem Admin-Panel bei WordPress!"
+
+msgid "Most important"
+msgstr "Super Wichtig"
+
+msgid "Worthy Premium enables you to <strong>generate reports for all qualified posts</strong>!"
+msgstr "Mit Worthy Premium kannst Du <strong>automatisch Meldungen für Beiträge erstellen</strong>, die bereits den Mindestzugriff erreicht haben!"
+
+msgid "Save hours of time by submitting reports to VG-Wort via Worthy Premium instead of copy and pasting posts on your own! This is the most comfortable feature most professional authors and bloggers have waited for!"
+msgstr "So kannst Du jede Menge Lebenszeit sparen, die Du sonst mit Copy&Paste zwischen Wordpress und T.O.M. verbringen würdest! Auf diese Komfortfunktion haben Profiautoren, wie Blogger schon lange gewartet!"
+
+msgid "Worthy Premium Testdrive"   
+msgstr "Worthy Premium Test-Zugang"
+
+msgid "I guess we do now have your attention, right? But before you have to paid even a cent for Worthy Premium you may validate every of our promises by yourself."
+msgstr "Sicher bist Du neugierig geworden. Aber bevor Du auch nur einen Cent für Worthy Premium bezahlen mußt, kannst Du alles nach Herzenslust völlig kostenlos und unverbindlich ausprobieren."
+
+msgid "Before you choose to subscribe to Worthy Premium, we offer you a limited trial-account:"
+msgstr "Bevor Du Dich nun bei Worthy Premium anmeldest, bieten wir Dir zunächst einen beschränkten Test-Zugang an:"
+
+msgid "There are no hidden costs, no traps and no automatic renewals. There is no way that is more fair or uncomplicated!"
+msgstr "Wir kennen keine Abofallen oder automatische Verlängerung. Fairer und unkomplizierter geht’s nicht!"
+
+msgid "This is the reason why we offer a limited test-drive."
+msgstr "Deshalb bieten wir Dir zunächst einen etwas beschränkten Testzugang an."
+
+msgid "Get free access to our service for %d days"
+msgstr "Du erhälst %d Tage lang kostenfrei Zugriff auf diesen Dienst"
+
+msgid "Submit reports to VG-Wort for up to %d posts during that time"
+msgstr "Du kannst bis zu %d Beiträge während dieser Testzeit bei T.O.M. anmelden"
+
+msgid "Import as much new markers as you like to (in batches of 100 markers per import) using your limited trial-access"
+msgstr "Importiere so viele neue Zählmarken wie Du möchtest mit Deinem Test-Zugang (in Tranchen von je 100 Pixeln)"
+
+msgid "Get free status-updates for all your markers while the trial-period is running"
+msgstr "Erhalte Updates für alle Deine aktiven Zählmarken solange Dein Test-Zugang aktiv ist"
+
+msgid "To setup a trial-account you only need to have an existing VG-Wort T.O.M. account. We only need your login-credentials. (See Worthy Premium Security Notes for details)"
+msgstr "Zur Einrichtung eines Test-Zugangs benötigst Du lediglich einen existierenden VG-Wort T.O.M.-Zugang - die Zugangsdaten musst Du in Worthy eingeben, damit die Verbindung zwischen Deinem WordPress und T.O.M. hergestellt werden kann. (Schau Dir die Sicherheitshinweise für Worthy Premium an)"
+
+msgid "Worthy Premium Security Notes"
+msgstr "Worthy Premium Sicherheitshinweise"
+
+msgid "Worthy Premium is a webservice located between your Wordpress-Blog and VG-Wort T.O.M.."
+msgstr "Worthy Premium ist ein Internet-Dienst der zwischen Deinem Wordpress-Blog und VG-Wort T.O.M. arbeitet."
+
+msgid "As Worthy Premium works on your behalf at T.O.M., you need to supply your login-information to Worthy."
+msgstr "Da Worthy Premium stellvertretend für Dich dort arbeitet, musst Du Deine Zugangsdaten für T.O.M. in Worthy eingeben."
+
+msgid "We handle your login-credentials with as much care as possible and will never save passwords when no session is online."
+msgstr "Natürlich behandeln wir Deine Zugangsdaten mit der höchstmöglichen Sorgfalt und speichern niemals eines Deiner Passwörter sofern Du nicht gerade über unseren Webdienst angemeldet bist."
+
+msgid "Your login-information will be handled with highest security. Worthy Premium will not store your password, it will be submitted by your wordpress-installation whenever a login for T.O.M. is required."
+msgstr "Deine Zugangsdaten werden mit der größtmöglichen Sicherheit verwaltet. Worthy Premium speichert niemals Dein Passwort, dieses wird nur dann von Deinem System übertragen, wenn es für die Anmeldung bei T.O.M. erforderlich ist."
+
+msgid "If you choose not to use our service, we ask kindly to change your login-credentials."
+msgstr "Solltest Du Worthy Premium irgendwann einmal nicht mehr nutzen wollen, bitten wir Dich, Dein Passwort einfach zu ändern."
+
+###
+# Worthy Premium Shop
+
+msgid "Worthy Premium Shop"
+msgstr "Worthy Premium Shop"
+
+msgid "Leave unchanged"
+msgstr "Nicht bestellen"
+
+msgid "Worthy Premium Subscribtion & Renewal"
+msgstr "Worthy Premium Abonnements"
+
+msgid "To be able to use Worthy Premium it is required that you are subscribed to the service. Subscribtions may be purchased on a yearly basis and are always cheaper if you use more. The subscribtion will not be renewed automatically!"
+msgstr "Du benötigst ein Abonnement um Worthy Premium nutzen zu können. Ein Abonnement kann für jeweils ein Jahr gebucht werden und wird günstiger je mehr Jahre Du bestellst. Das Abonnement verlängert sich nicht automatisch!"
+
+msgid "Worthy Premium Subscribtiopn (1 year)"
+msgstr "Worthy Premium für ein Jahr"
+
+msgid "Worthy Premium Subscribtiopn (2 years)"
+msgstr "Worthy Premium für zwei Jahre"
+
+msgid "Worthy Premium Subscribtiopn (3 years)"
+msgstr "Worthy Premium für drei Jahre"
+
+msgid "Worthy Premium Bundles"
+msgstr "Worthy Premium Bundles"
+
+msgid "Bundles extend an existing Worthy Premium Subscribtion with other functions. Bundles are purchased on a per-use-basis and may be used as long as a subscribtion exists."
+msgstr "Ein Bundle erweitert ein bestehendes Abonnement um weitere Funktionen und wird auf Basis der gewünschten Nutzungsmenge erworben. Ein Bundle kann genutzt werden, solange ein beliebiges Abonnement besteht und verfällt nicht."
+
+msgid "10 Reports Bundle"
+msgstr "10 Meldungen an VG-Wort"
+
+msgid "25 Reports Bundle"
+msgstr "25 Meldungen an VG-Wort"
+
+msgid "50 Reports Bundle"
+msgstr "50 Meldungen an VG-Wort"
+
+msgid "100 Reports Bundle"
+msgstr "100 Meldungen an VG-Wort"
+
+msgid "250 Reports Bundle"
+msgstr "250 Meldungen an VG-Wort"
+
+msgid "You have not purchased any subscribtion yet. Upon the first subscribtion it is required that you but a subscribtion and a bundle as well in combination."
+msgstr "Du hast bisher noch kein Worthy Premium Abonnement abgeschlossen. Für das erste Abonnement ist es erforderlich, dass Du sowohl ein Abonnement wie auch ein passendes Bundle bestellst."
+
+msgid "Payment Options"
+msgstr "Zahlungsmöglichkeiten"
+
+msgid "No signup required, works with normal online-banking"
+msgstr "Keine Anmeldung notwendig, funktioniert mit Deinem normalen Online-Banking"
+
+msgid "No personal data is exchanged"
+msgstr "Es werden keine persönlichen Daten übermittelt"
+
+msgid "Checkout is finished immediatly"
+msgstr "Die Bestellung wird sofort abgeschlossen"
+
+msgid "German Payment-Service-Provider"
+msgstr "Deutscher Zahlungsabwickler"   
+
+msgid "Does not depend on a giropay-capable bank"
+msgstr "Benötigt kein Giropay-fähiges Online-Banking"
+
+msgid "Works with credit-cards"
+msgstr "Zahlung per Kreditkarte möglich"
+
+msgid "Checkout finishes fast"
+msgstr "Bestellungen werden zeitnah abgeschlossen"
+
+msgid "Total"
+msgstr "Gesamtpreis"
+
+msgid "Tax included"
+msgstr "Enthaltene MwSt."
+
+msgid "I have read and accepted the <a href=\"%s\" id=\"wp-worthy-terms\" target=\"_blank\">terms of service</a> and <a href=\"%s\" id=\"wp-worthy-privacy\" target=\"_blank\">the privacy statement</a>"
+msgstr "Ich habe die <a href=\"%s\" id=\"wp-worthy-terms\" target=\"_blank\">AGB</a> und <a href=\"%s\" id=\"wp-worthy-privacy\" target=\"_blank\">Datenschutzbestimmungen</a> gelesen und akzeptiert"   
+
+msgid "* All price are with tax included"
+msgstr "* Alle Preise verstehen sich inkl. der gesetzlichen MwSt."
+
+msgid "Proceed to checkout"
+msgstr "Jetzt kaufen & bezahlen"
+
+msgid "You don't have selected anything to buy, pressing this button does not make sense"
+msgstr "Du hast noch kein Worthy Premium Abonnement oder Bundle ausgewählt - da ergibt es keinen Sinn diesen Button zu drücken."
+
+msgid "You have to supply a BIC when using Giropay"
+msgstr "Wenn Du Giropay zur Zahlung benutzen möchtest, benötigen wir vorab die BIC Deiner Bank um Dich richtig weiterleiten zu können."
+
+###
+
+msgid "Could not store username and/or password on your wordpress-configuration. Strange!"
+msgstr "Fehler beim Speichern der Zugangsdaten in Deiner Wordpress-Konfiguration. Merkwürdig!"
+
+msgid "Signup with Worthy Premium was successfull!"
+msgstr "Du bist nun erfolgreich für Worthy Premium registriert!"
+
+msgid "Import via Worthy Premium"
+msgstr "Über Worthy Premium importieren"
+
+msgid "Number of markers to import (at most 100)"
+msgstr "Anzahl der zu importierenden Zählmarken (maximal 100)"
+
+msgid "<strong>%d new markers</strong> were imported via Worthy Premium"
+msgstr "<strong>%d neue Zählmarken</strong> wurden über Worthy Premium importiert"
+
+msgid "Preview report for VG-Wort"
+msgstr "Vorschau für Meldung an VG-Wort"
+
+msgid "Report directly to VG-Wort"
+msgstr "Direkt an VG-Wort melden"
+
+msgid "Could sign up. Please check your login-credentials!"
+msgstr "Anmeldung fehlgeschlagen. Bitte überprüfe Deine T.O.M.-Zugangsdaten!"
+
+msgid "Database-Error: The new markers could not be stored on the wordpress-database. This should never, never happen! Please check your installation!"
+msgstr "Datenbank-Fehler: Die neuen Zählmarken konnten nicht in der Wordpress-Datenbank gespeichert werden. Das sollte niemals passieren! Bitte prüfe Deine Wordpress-Installation!"
+
+msgid "This call would not work unless you are subscribed to worthy premium"
+msgstr "Dieser Funktionsaufruf wird nicht funktionieren solange Du nicht bei Worthy Premium angemeldet bist"
+
+msgid "There was an error while syncronising the markers"
+msgstr "Bei der Synchronisierung der Zählmarken trat ein Fehler auf"
+
+msgid "Thank you for your feedback!"
+msgstr "Vielen Dank für das Feedback!"
+
+msgid "We promise to read it carefully and respond within short time if a response is needed."
+msgstr "Wir versprechen, dass wir Deine Nachricht aufmerksam lesen und Dir - sofern nötig oder gewünscht - schon bald antworten werden."
+
+msgid "Synchronization was successfull."
+msgstr "Synchronisation war erfolgreich."
+
+msgid "<strong>%d markers</strong> received an update (all others are unchanged)"
+msgstr "Der Status von <strong>%d Zählmarken</strong> wurde aktualisiert (alle anderen waren unverändert)"
+
+msgid "You did not select anything to purchase."
+msgstr "Du hast nichts für die Bestellung ausgewählt."
+
+msgid "There was an error while initiating the payment"
+msgstr "Bei der Initialisierung der Bezahlung trat ein Fehler auf"
+
+msgid "Worthy Premium Status was successfully updated"
+msgstr "Dein Worthy Premium Status wurder erfolgreich abgerufen"
+
+msgid "Show me that updates, please!"
+msgstr "Zeige mir bitte die veränderten Zählmarken!"
+
+msgid "Characters"
+msgstr "Zeichen"
+
+msgid "Characters (VG-Wort)"
+msgstr "Zeichen (VG-Wort)"
+
+msgid "This article is flagged as lyric work but you did not assign a marker. The lyric-flag only makes sense if you want to assign a marker to a short text."
+msgstr "Der Beitrag ist als lyrisches Werk markert, hat jedoch keine Zählmarke zugeordnet. Diese Markeriung macht nur Sinn, wenn ein kurzer Text eine Zählmarke erhalten soll."
+
+msgid "Your article is more than %d characters long but you did not assign a marker. It is advisable to assign a marker now or to ignore it for use with worthy."
+msgstr "Der Beitrag enthält mindestens %d Zeichen und könnte so für die Meldung an die VG-Wort relevant sein. Wir empfehlen eine Zählmarke zuzuordnen oder den Beitrag für Worthy zu ignorieren."
+
+msgid "Your article is close to %d characters long and though may qualify to be reported to VG-Wort if you write some more words."
+msgstr "Der Beitrag ist fast %d Zeichen lang. Du kannst vielleicht etwas Geld damit verdienen, wenn Du noch ein paar Worte schreibst und eine Zählmarke hinzufügst."
+
+msgid "Worthy was not able to assign a marker to this post because there are no free markers left on the database."
+msgstr "Worthy konnte diesem Beitrag leider keine Zählmarke zuordnen, da keine freien Zählmarken mehr in der Datenbank vorhanden sind."
+
+msgid "Worthy was not able to assign a marker to this post because of an unknown internal error. Please contact developers."
+msgstr "Worthy konnte aufgrund eines unbekannten Fehlers keine Zählmarke zuordnen. Bitte kontaktiere die Entwickler von Worthy!"
+
+msgid "Worthy will not be able to assign a marker to this post because there are no free markers left on the database."
+msgstr "Worthy wird diesem Beitrag keine Zählmarke zuordnen können, da Du keine freien Zählmarken mehr in der Datenbank hast."
+
+msgid "Worthy Premium Debugging"
+msgstr "Worthy Premium Debugging"
+
+msgid "Use Worthy Premium Production Server"
+msgstr "Live-Server von Worthy Premium verwenden"
+
+msgid "Use Worthy Premium Development Server"
+msgstr "Entwicklungsserver von Worthy Premium verwenden"
+
+msgid "Change Worthy Premium Server"
+msgstr "Server zu Worthy Premium wechseln"
+
+msgid "If something in S2S-Communication does not work, you might want to drop the current session"
+msgstr "Wenn etwas in der Server-zu-Server-Kommunikation nicht funktioniert, willst Du vielleicht die aktuelle Sitzung entfernen"
+
+msgid "Drop current session"
+msgstr "Aktuelle Sitzung löschen"
+
+msgid "You may want to drop the local user-credentials to make Worthy belive its not subscribed to Worthy Premium"
+msgstr "Zu Testzwecken kann es vorkommen, dass Du die lokal gespeicherten Anmelde-Daten zu Worthy Premium entfernen möchtest"
+
+msgid "Drop local user-credentials"
+msgstr "Anmelde-Daten löschen"
+
+msgid "All done"
+msgstr "Alles fertig!"
+
+msgid "Your order was successfull and is already paid. We hope that you enjoy using Worthy Premium! Thank you!"
+msgstr "Deine Bestellung war erfolgreich und ist bereits bezahlt. Wir hoffen Du hast viel Vergnügen mit Worthy Premium! Vielen Dank für Deine Bestellung!"
+
+msgid "We are processing your order"
+msgstr "Deine Bestellung wird bearbeitet"
+
+msgid "Once your order is paid your account will be updated. This usually takes less than a minute but can depend on how you processed the payment."
+msgstr "Sobald Deine Bestellung bezahlt wurde wird Dein Account entsprechend der Bestellung angepasst. Das dauert typischerweise weniger als eine Minute, kann aber je nach Zahlweise schon einmal etwas länger dauern."
+
+msgid "Payment was canceled"
+msgstr "Zahlung wurde abgebrochen"
+
+msgid "How sad! Your payment was canceled. Don't you feel confident with using Worthy Premium?"
+msgstr "Oh, wie schade! Die Zahlung Deiner Bestellung wurde abgebrochen. Konnten wir Dich noch nicht von Worthy Premium überzeugen?"
+
